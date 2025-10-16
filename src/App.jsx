@@ -20,7 +20,7 @@ function Doboz1() {
       margin: '10px',
       borderRadius: '8px',
       textAlign: 'center',
-      backgroundColor: '#f5f5f5'
+      backgroundColor: '#2196f3' // blue
     }}>
       <h3>Doboz 1</h3>
       <div style={{ fontSize: '24px', margin: '10px 0' }}>
@@ -41,7 +41,7 @@ function App() {
     <div>
       <h1>React Dobozok</h1>
       <Doboz1 />
-      <Doboz2 initialValue={5} />
+      <Doboz2 initialValue={5} color="#e53935" />
     </div>
   );
 }

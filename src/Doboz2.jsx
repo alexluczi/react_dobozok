@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function Doboz2({ initialValue = 0 }) {
+function Doboz2({ initialValue = 0, color = '#e53935' }) {
   const [szam, setSzam] = useState(initialValue);
 
   const kattintas = () => {
@@ -16,7 +16,7 @@ function Doboz2({ initialValue = 0 }) {
         margin: '10px',
         borderRadius: '8px',
         textAlign: 'center',
-        backgroundColor: '#e8f4fd',
+        backgroundColor: color,
         cursor: 'pointer',
         userSelect: 'none'
       }}
